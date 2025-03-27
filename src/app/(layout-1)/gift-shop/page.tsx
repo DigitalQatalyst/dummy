@@ -5,13 +5,13 @@ import api from "@utils/__api__/gift";
 import Container from "@component/Container";
 import Navbar from "@component/navbar/Navbar";
 // PAGE SECTION COMPONENTS
-import Section1 from "@sections/otherLayouts/gift-shop/section-1";
-import Section2 from "@sections/otherLayouts/gift-shop/section-2";
-import Section3 from "@sections/otherLayouts/gift-shop/section-3";
-import Section4 from "@sections/otherLayouts/gift-shop/section-4";
-import Section5 from "@sections/otherLayouts/gift-shop/section-5";
-import Section6 from "@sections/otherLayouts/gift-shop/section-6";
-import ContentBox from "@sections/otherLayouts/gift-shop/content-box";
+import Section1 from "@sections/gift-shop/section-1";
+import Section2 from "@sections/gift-shop/section-2";
+import Section3 from "@sections/gift-shop/section-3";
+import Section4 from "@sections/gift-shop/section-4";
+import Section5 from "@sections/gift-shop/section-5";
+import Section6 from "@sections/gift-shop/section-6";
+import ContentBox from "@sections/gift-shop/content-box";
 
 export default async function GiftShop() {
   const popularProducts = await api.getPopularProducts();

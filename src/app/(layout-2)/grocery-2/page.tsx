@@ -4,14 +4,14 @@ import api from "@utils/__api__/grocery-2";
 import Box from "@component/Box";
 import { Footer2 } from "@component/footer";
 // PAGE SECTION COMPONENTS
-import Wrapper from "@sections/otherLayouts/grocery-2/Wrapper";
-import SidenavBar from "@sections/otherLayouts/grocery-2/SidenavBar";
-import Section1 from "@sections/otherLayouts/grocery-2/section-1";
-import Section2 from "@sections/otherLayouts/grocery-2/section-2";
-import Section3 from "@sections/otherLayouts/grocery-2/section-3";
-import Section4 from "@sections/otherLayouts/grocery-2/section-4";
-import Section5 from "@sections/otherLayouts/grocery-2/section-5";
-import Section6 from "@sections/otherLayouts/grocery-2/section-6";
+import Wrapper from "@sections/grocery-2/Wrapper";
+import SidenavBar from "@sections/grocery-2/SidenavBar";
+import Section1 from "@sections/grocery-2/section-1";
+import Section2 from "@sections/grocery-2/section-2";
+import Section3 from "@sections/grocery-2/section-3";
+import Section4 from "@sections/grocery-2/section-4";
+import Section5 from "@sections/grocery-2/section-5";
+import Section6 from "@sections/grocery-2/section-6";
 
 export default async function GroceryTwo() {
   const dairyProducts = await api.getDairyProducts();

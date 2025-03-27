@@ -6,15 +6,15 @@ import Box from "@component/Box";
 import Container from "@component/Container";
 import Navbar from "@component/navbar/Navbar";
 // PAGE SECTION COMPONENTS
-import Section1 from "@sections/otherLayouts/fashion-1/Section1";
-import Section2 from "@sections/otherLayouts/fashion-1/Section2";
-import Section3 from "@sections/otherLayouts/fashion-1/Section3";
-import Section4 from "@sections/otherLayouts/fashion-1/Section4";
-import Section5 from "@sections/otherLayouts/fashion-1/Section5";
-import Section6 from "@sections/otherLayouts/fashion-1/Section6";
-import Section7 from "@sections/otherLayouts/fashion-1/Section7";
-import Section8 from "@sections/otherLayouts/fashion-1/Section8";
-import Section9 from "@sections/otherLayouts/fashion-1/Section9";
+import Section1 from "@sections/fashion-1/Section1";
+import Section2 from "@sections/fashion-1/Section2";
+import Section3 from "@sections/fashion-1/Section3";
+import Section4 from "@sections/fashion-1/Section4";
+import Section5 from "@sections/fashion-1/Section5";
+import Section6 from "@sections/fashion-1/Section6";
+import Section7 from "@sections/fashion-1/Section7";
+import Section8 from "@sections/fashion-1/Section8";
+import Section9 from "@sections/fashion-1/Section9";
 
 export default async function FashionOne() {
   const hotDealList = await api.getHotDealList();

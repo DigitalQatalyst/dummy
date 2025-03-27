@@ -5,10 +5,10 @@ import api from "@utils/__api__/furniture";
 import Container from "@component/Container";
 import Navbar from "@component/navbar/Navbar";
 // PAGE SECTION COMPONENTS
-import Section1 from "@sections/otherLayouts/furniture-shop/section-1";
-import Section3 from "@sections/otherLayouts/furniture-shop/section-3";
-import Section4 from "@sections/otherLayouts/furniture-shop/section-4";
-import ContentBox from "@sections/otherLayouts/furniture-shop/ContentBox";
+import Section1 from "@sections/furniture-shop/section-1";
+import Section3 from "@sections/furniture-shop/section-3";
+import Section4 from "@sections/furniture-shop/section-4";
+import ContentBox from "@sections/furniture-shop/ContentBox";
 
 export default async function FurnitureShop() {
   const topNewProducts = await api.getTopNewProducts();

@@ -6,11 +6,11 @@ import { Footer2 } from "@component/footer";
 import SideNavbar from "@component/sidenav/SideNavbar";
 import SidenavContainer from "@component/SidenavContainer";
 // PAGE SECTION COMPONENTS
-import Section1 from "@sections/otherLayouts/grocery-1/section-1";
-import Section2 from "@sections/otherLayouts/grocery-1/section-2";
-import Section3 from "@sections/otherLayouts/grocery-1/section-3";
-import Section4 from "@sections/otherLayouts/grocery-1/section-4";
-import Section5 from "@sections/otherLayouts/grocery-1/section-5";
+import Section1 from "@sections/grocery-1/section-1";
+import Section2 from "@sections/grocery-1/section-2";
+import Section3 from "@sections/grocery-1/section-3";
+import Section4 from "@sections/grocery-1/section-4";
+import Section5 from "@sections/grocery-1/section-5";
 
 export default async function GroceryOne() {
   const FIXED_ID = "services-area";

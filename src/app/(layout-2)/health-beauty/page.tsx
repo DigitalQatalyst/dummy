@@ -7,11 +7,11 @@ import SidenavContainer from "@component/SidenavContainer";
 // API FUNCTIONS
 import api from "@utils/__api__/health-beauty";
 // PAGE SECTION COMPONENTS
-import Section1 from "@sections/otherLayouts/health-beauty/section-1";
-import Section2 from "@sections/otherLayouts/health-beauty/section-2";
-import Section3 from "@sections/otherLayouts/health-beauty/section-3";
-import Section4 from "@sections/otherLayouts/health-beauty/section-4";
-import Section5 from "@sections/otherLayouts/health-beauty/section-5";
+import Section1 from "@sections/health-beauty/section-1";
+import Section2 from "@sections/health-beauty/section-2";
+import Section3 from "@sections/health-beauty/section-3";
+import Section4 from "@sections/health-beauty/section-4";
+import Section5 from "@sections/health-beauty/section-5";
 
 export default async function HealthBeautyShop() {
   const FIXED_ID = "banner-area";

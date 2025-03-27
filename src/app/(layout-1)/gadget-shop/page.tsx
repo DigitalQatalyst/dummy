@@ -5,13 +5,13 @@ import api from "@utils/__api__/gadget";
 import Box from "@component/Box";
 import Navbar from "@component/navbar/Navbar";
 // PAGE SECTION COMPONENTS
-import Section1 from "@sections/otherLayouts/gadget-shop/section-1";
-import Section2 from "@sections/otherLayouts/gadget-shop/section-2";
-import Section3 from "@sections/otherLayouts/gadget-shop/section-3";
-import Section4 from "@sections/otherLayouts/gadget-shop/section-4";
-import Section5 from "@sections/otherLayouts/gadget-shop/section-5";
-import Section6 from "@sections/otherLayouts/gadget-shop/section-6";
-import Section7 from "@sections/otherLayouts/gadget-shop/section-7";
+import Section1 from "@sections/gadget-shop/section-1";
+import Section2 from "@sections/gadget-shop/section-2";
+import Section3 from "@sections/gadget-shop/section-3";
+import Section4 from "@sections/gadget-shop/section-4";
+import Section5 from "@sections/gadget-shop/section-5";
+import Section6 from "@sections/gadget-shop/section-6";
+import Section7 from "@sections/gadget-shop/section-7";
 
 export default async function GadgetShop() {
   const twoBanner = await api.getTwoBanner();
